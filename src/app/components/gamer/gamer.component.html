@@ -1,0 +1,28 @@
+<div class="container">
+    <p class="txt_I mt-5 mb-5">Completa la secuencia</p>
+    <div class="row justify-content-center">
+        <div class="col d-flex align-items-center justify-content-center anm_N1 mt-5 mb-4">
+            <div #nm1 class="nm_1">{{numero1}}</div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center anm_F1 mt-5 mb-4">
+            <img src="../../../assets/img/flecha-correcta.svg" class="flecha">
+        </div>
+        <div class="col d-flex align-items-center justify-content-center anm_N2 mt-5 mb-4">
+            <div #nm2 class="nm_1">{{numero2}}</div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center anm_F2 mt-5 mb-4">
+            <img src="../../../assets/img/flecha-correcta.svg" class="flecha">
+        </div>
+        <div class="col d-flex align-items-center justify-content-center anm_N3 mt-5 mb-4">
+            <div #nm3 class="nm_1">{{numero3}}</div>
+        </div>
+        <div class="col d-flex align-items-center justify-content-center anm_F3 mt-5 mb-4">
+            <img src="../../../assets/img/flecha-correcta.svg" class="flecha">
+        </div>
+        <div class="col d-flex align-items-center justify-content-center anm_N4 mt-5 mb-4">
+            <div #nm4 class="nm_1">{{numero4}}</div>
+        </div>
+    </div>
+    <!-- <div class="btn_calificar" (click)="calificar()" [disabled]="true">Responder</div> -->
+    <button  class="btn_calificar" (click)="calificar()" [disabled]="estadoCal">Responder</button>
+</div>

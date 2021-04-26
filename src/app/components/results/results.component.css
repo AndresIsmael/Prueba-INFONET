@@ -1,0 +1,49 @@
+.img_crt{
+    position: relative;
+    width: 40px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    animation: zoomIn .7s ease-in-out;
+    -webkit-animation: zoomIn .7s ease-in-out;
+    -moz-animation: zoomIn .7s ease-in-out;
+}
+.p_r1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #7c8790;
+    font-family: var(--lato_bold);
+    font-size: 25px;
+    margin-top: 20px;
+    animation: fadeInLeft .7s ease-in-out;
+    -webkit-animation: fadeInLeft .7s ease-in-out;
+    -moz-animation: fadeInLeft .7s ease-in-out;
+}
+.p_r2{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: var(--monserrat_black);
+    font-size: 80px;
+    color: black;
+    animation: fadeInRight .7s ease-in-out;
+    -webkit-animation: fadeInRight .7s ease-in-out;
+    -moz-animation: fadeInRight .7s ease-in-out;
+}
+.btn_reiniciar{
+    position: relative;
+    border: 0px;
+    background-color: #ed2a2f;
+    font-family: var(--lato_bold);
+    color: white;
+    font-size: 20px;
+    width: 140px;
+    padding: 9px 0px;
+    border-radius: 25px;
+    margin: auto;
+    display: block;
+    animation: bounceIn .7s ease-in-out;
+    -webkit-animation: bounceIn .7s ease-in-out;
+    -moz-animation: bounceIn .7s ease-in-out;
+}

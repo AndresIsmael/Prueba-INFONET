@@ -1,0 +1,67 @@
+.txt_I{
+    position: relative;
+    font-family: var(--lato_bold);
+    font-size: 18px;
+    text-align: center;
+    animation: fadeInLeft 1s ease-in-out;
+    -webkit-animation: fadeInLeft 1s ease-in-out;
+    -moz-animation: fadeInLeft 1s ease-in-out;
+}
+.p_1_1{
+    position: relative;
+    font-family: var(--lato_bold);
+    text-align: center;
+    animation: fadeInDown 1s ease-in-out;
+    -webkit-animation: fadeInDown 1s ease-in-out;
+    -moz-animation: fadeInDown 1s ease-in-out;
+}
+.ipNmb{
+    position: relative;
+    width: 100px;
+    font-family: var(--monserrat_black);
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 10px;
+    animation: bounceIn 1s ease-in-out;
+    -webkit-animation: bounceIn 1s ease-in-out;
+    -moz-animation: bounceIn 1s ease-in-out;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.p_1_2{
+    position: absolute;
+    text-align: center;
+    font-family: var(--lato_bold);
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -28px;
+    animation: fadeInDown 1s ease-in-out;
+    -webkit-animation: fadeInDown 1s ease-in-out;
+    -moz-animation: fadeInDown 1s ease-in-out;
+}
+.btn_empezar{
+    position: relative;
+    background-color: #495259;
+    text-align: center;
+    font-size: 15px;
+    width: 160px;
+    padding: 10px 0px;
+    margin: auto;
+    color: white;
+    font-family: var(--monserrat_bold);
+    border-radius: 15px;
+    border: 0px;
+    display: block;
+    cursor: pointer;
+    animation: fadeInRight .7s ease-in-out;
+    -webkit-animation: fadeInRight .7s ease-in-out;
+    -moz-animation: fadeInRight .7s ease-in-out;
+}

@@ -1,0 +1,14 @@
+.bar_progress{
+    position: relative;
+    width: 50%;
+    height: 15px;
+    background: rgb(255,128,1); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(255,128,1,1) 0%, rgba(255,204,15,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(255,128,1,1) 0%,rgba(255,204,15,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(255,128,1,1) 0%,rgba(255,204,15,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8001', endColorstr='#ffcc0f',GradientType=1 ); /* IE6-9 */
+    border-radius: 0px 6px 6px 0px;
+    animation: fadeInLeft .7s ease-in-out;
+    -webkit-animation: fadeInLeft .7s ease-in-out;
+    -moz-animation: fadeInLeft .7s ease-in-out;
+}

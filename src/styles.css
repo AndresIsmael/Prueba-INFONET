@@ -1,1 +1,157 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    
+    --lato_black: 'latoblack';
+    --lato_black_italic: 'latoblack_italic';
+    --lato_bold: 'latobold';
+    --lato_italic: 'latoitalic';
+    --lato_light: 'latolight';
+    --monserrat_black: 'montserratblack';
+    --monserrat_bold: 'montserratbold';
+    --monserrat_regular: 'montserratregular';
+
+}
+
+.txt_I{
+    position: relative;
+    font-family: var(--lato_bold);
+    font-size: 18px;
+    text-align: center;
+    animation: fadeInRight 1s ease-in-out;
+    -webkit-animation: fadeInRight 1s ease-in-out;
+    -moz-animation: fadeInRight 1s ease-in-out;
+}
+.nm_1{
+    position: relative;
+    font-family: var(--monserrat_bold);
+    font-size: 55px;
+    margin: 0px;
+    color: #2b4457;
+}
+.flecha{
+    position: relative;
+    width: 25px;
+}
+.nm_2{
+    border: 2px dashed #bbbbbb;
+    width: 90px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.cnt_pc{
+    position: absolute;
+    display: flex;
+    bottom: -44px;
+    background: #91a9bc;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 10px 9px 2px #b5d9f4;
+    -moz-box-shadow: 3px 10px 9px 2px #b5d9f4;
+    box-shadow: 3px 10px 9px 2px #b5d9f4;
+}
+.pc_1{
+    position: relative;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #91a9bc;
+    padding: 19px;
+    border-radius: 7px;
+    background-color: white;
+    cursor: pointer;
+}
+.pc_1:hover{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+.btn_calificar{
+    position: relative;
+    background-color: #495259;
+    text-align: center;
+    font-size: 15px;
+    width: 160px;
+    padding: 10px 0px;
+    margin: auto;
+    color: white;
+    font-family: var(--monserrat_bold);
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-top: 90px;
+    border: 0px;
+    animation: bounceIn .7s ease-in-out;
+    -webkit-animation: bounceIn .7s ease-in-out;
+    -moz-animation: bounceIn .7s ease-in-out;
+}
+.nm_malo{
+    position: relative;
+    font-family: var(--monserrat_bold);
+    font-size: 55px;
+    margin: 0px;
+    color: #2b4457;
+    width: 90px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #ff7c80;
+    -webkit-box-shadow: 2px 17px 20px 0px #ff7c80;
+    -moz-box-shadow: 2px 17px 20px 0px #ff7c80;
+    box-shadow: 2px 17px 20px 0px #ff7c80;
+
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+.nm_bueno{
+    position: relative;
+    font-family: var(--monserrat_bold);
+    font-size: 55px;
+    margin: 0px;
+    color: #2b4457;
+    width: 90px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid #52e1c9;
+    -webkit-box-shadow: 2px 17px 20px 0px #52e1c9;
+    -moz-box-shadow: 2px 17px 20px 0px #52e1c9;
+    box-shadow: 2px 17px 20px 0px #52e1c9;
+
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+.img_correcto{
+    position: absolute;
+    width: 35px;
+    bottom: -52px;
+    animation: zoomIn .5s ease-in-out;
+    -webkit-animation: zoomIn .5s ease-in-out;
+    -moz-animation: zoomIn .5s ease-in-out;
+}
+.p_malo{
+    position: absolute;
+    color: red;
+    font-family: var(--lato_bold);
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    width: 140px;
+    bottom: -80px;
+    animation: zoomIn .5s ease-in-out;
+    -webkit-animation: zoomIn .5s ease-in-out;
+    -moz-animation: zoomIn .5s ease-in-out;
+}

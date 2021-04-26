@@ -1,0 +1,10 @@
+.anm_N1,.anm_N2,.anm_N3,.anm_N4{
+    animation: bounceIn .7s ease-in-out;
+    -webkit-animation: bounceIn .7s ease-in-out;
+    -moz-animation: bounceIn .7s ease-in-out;
+}
+.anm_F1,.anm_F2,.anm_F3{
+    animation: fadeInLeft .7s ease-in-out;
+    -webkit-animation: fadeInLeft .7s ease-in-out;
+    -moz-animation: fadeInLeft .7s ease-in-out;
+}

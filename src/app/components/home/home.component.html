@@ -1,0 +1,23 @@
+<div class="container">
+    <p class="txt_I mt-5">Escoge la cantidad de secuencias y escoge los intervalos</p>
+    <div class="row mt-5">
+        <div class="col-md-4 d-flex flex-column align-items-center">
+            <p class="p_1_1 mb-5">Secuencias</p>
+            <input type="number" class="ipNmb mt" value="1" max="10" min="1" [(ngModel)]="secuencia">
+        </div>
+        <div class="col-md-8 d-flex flex-column">
+            <p class="p_1_1 mb-5">Intervalos</p>
+            <div class="d-flex justify-content-center">
+                <div class="d-flex flex-column position-relative">
+                    <p class="p_1_2">Mínimo</p>
+                    <input type="number" class="ipNmb ml-5 mr-5" value="0" min="0" [(ngModel)]="min" (change)="rango()">
+                </div>
+                <div class="d-flex flex-column position-relative">
+                    <p class="p_1_2">Máximo</p>
+                    <input type="number" class="ipNmb ml-5 mr-5" value="15" min="0" [(ngModel)]="max" (change)="rango()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn_empezar mt-5" (click)="comenzar()">Empezar</button>
+</div>
